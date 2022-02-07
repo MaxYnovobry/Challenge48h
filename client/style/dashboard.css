@@ -2,3 +2,47 @@
     background-color: rgba(255, 255, 255, 67%) !important;
     color: #707070 !important;
 }
+
+/* BOXES */
+
+.activeDevices {
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    margin-top: 3%;
+    border-radius: 1.5vw;
+    justify-content: space-evenly;
+}
+
+.activeDevices + div {
+    width: 96%;
+    border: solid 1px #707070;
+    height: 19vh;
+    display: flex;
+    margin-top: 2%;
+    border-radius: 1.5vw;
+    background-color: rgba(255, 255, 255, 70%);
+}
+
+.activeDevices > div {
+    border: solid 1px #707070;
+    height: 100%;
+    display: flex;
+    border-radius: 1.5vw;
+    background-color: rgba(255, 255, 255, 70%);
+}
+
+.activeDevices div:first-child {
+    width: 74%;
+}
+
+.activeDevices div:nth-child(2) {
+    width: 20%;
+}
+
+.dashboardContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
