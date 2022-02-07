@@ -23,34 +23,27 @@
     justify-content: space-between;
 }
 .firstLign{
-    display:flex;
-    flex-direction:row;
-    JUSTIFY-CONTENT: SPACE-EVENLY;
-    MARGIN-BOTTOM: 15VW;
-    PADDING-BOTTOM: 15VW;
-    margin-top: 15vw; 
+    display: flex;
+    flex-direction: row;
+    margin-top: 6vw;
+    align-items: space-between;
 }
+
 .secundLign{
-    display:flex;
-    JUSTIFY-CONTENT: SPACE-EVENLY;
-    flex-direction:row;
-    MARGIN-BOTTOM: 15VW;
-    PADDING-BOTTOM: 15VW;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
 }
 .thirdLign{
-    display:flex;
-    JUSTIFY-CONTENT: SPACE-EVENLY;
-    flex-direction:row;
-    MARGIN-BOTTOM: 15VW;
-    PADDING-BOTTOM: 15VW;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
 }
 
 .screenGrp{
     border-radius: 5%;
     width: 11vw;
     border:2px solid rgb(30, 190, 190);
-    margin-bottom: 15vw; 
-    margin: 3vw;
 }
 
 .displayContent{
@@ -81,5 +74,6 @@
 }
 
 body{
-    display:flex
+    display:flex;
+    justify-content: space-between;
 }
