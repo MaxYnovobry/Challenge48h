@@ -49,7 +49,7 @@
 
 .activeDevices > div:first-child > div:nth-child(2) {
     height: 90%;
-    padding: 2vw;
+    margin: 3vw;
     overflow-y: auto;
     display: flex;
     flex-wrap: wrap;
