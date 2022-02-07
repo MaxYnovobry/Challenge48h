@@ -63,4 +63,9 @@ header ~ div {
     background-color: #FFFFFF;
     padding: 0.5vw 1vw;
     border-radius: 1vw;
+    border: solid 0 #707070;
+    box-shadow: 0.5vw 0.5vw 1.5vw lightgrey;
+}
+
+header ~ div {
 }
