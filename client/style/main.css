@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: "Segoe UI";
+    background-color: #E9E9E9;
 }
 
 .background{
@@ -38,19 +39,28 @@ body {
 }
 
 .screenGrp{
-    border-radius: 3%;
+    border-radius: 5%;
     width: 17vw;
-    border:0.1vw
+    border:2px solid rgb(30, 190, 190);
+    text-align:center;
+    margin:auto;
+}
+
+.screenGrp img {
+    width: 11vw;
 }
 
 .screenTxt{
-
 }
 
 .screen{
     width: 16vw;
 }
 
+.txt{
+    font-size:1.5vw;
+    text-align:center;
+}
 
 /* LEFT MENU */
 
@@ -60,9 +70,37 @@ header {
     flex-direction: column;
     width: 17vw;
     height: 100vh;
+    color: rgba(112, 112, 112, 53%);
+    font-weight: 600;
+}
+
+header div {
+    margin: 10% 0 30% 0;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
 }
 
 header div:nth-child(2) {
     display: flex;
     flex-direction: column;
+    font-size: 115%;
 }
+
+header div:nth-child(2) a {
+    background-color: rgba(255, 255, 255, 0%);
+    padding: 5%;
+    margin: 1% 8%;
+    border-radius: 1vw;
+    text-decoration: none;
+    color: rgba(112, 112, 112, 53%);
+}
+
+header div:nth-child(2) a:hover {
+    padding: 5%;
+    margin: 1% 8%;
+    border-radius: 1vw;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 40%);
+}
+
