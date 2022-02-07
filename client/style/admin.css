@@ -98,3 +98,8 @@ body{
     width:6.5vw;
     height:2vw
 }
+
+.nameDevices{
+    font-size:1.2vw;
+    text-align: center;
+}
