@@ -32,17 +32,56 @@
     background-color: rgba(255, 255, 255, 70%);
 }
 
-.activeDevices div:first-child {
+.activeDevices > div:first-child {
     width: 74%;
+    display: flex;
+    flex-direction: column;
 }
 
-.activeDevices div:nth-child(2) {
+.activeDevices > div:first-child > div:first-child {
+    height: 10%;
+    padding: 0 2vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 115%;
+}
+
+.activeDevices > div:first-child > div:nth-child(2) {
+    height: 90%;
+    padding: 2vw;
+    overflow-y: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.active {
+    background-color: limegreen;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    margin-right: 1vw;
+}
+
+.activeDevices > div:nth-child(2) {
     width: 20%;
 }
 
 .dashboardContent {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.activeDevices div div:nth-child(2) > div {
+    width: 12vw;
+    height: 13vw;
+    background-color: #FFFFFF;
+    border: solid 1px #707070;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
 }
 
