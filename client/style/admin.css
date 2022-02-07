@@ -1,0 +1,76 @@
+.screen{
+    width: 6vw;
+    text-align:center;
+    margin:auto;
+    display:flex;
+}
+
+.txt{
+    font-size:1.1vw;
+    text-align:center;
+}
+
+.background{
+    background-color: white;
+    width:100%;
+}
+.menu{
+    width: 15%;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.firstLign{
+    display:flex;
+    flex-direction:row;
+    JUSTIFY-CONTENT: SPACE-EVENLY;
+    MARGIN-BOTTOM: 15VW;
+    PADDING-BOTTOM: 15VW;
+    margin-top: 15vw; 
+}
+.secundLign{
+    display:flex;
+    JUSTIFY-CONTENT: SPACE-EVENLY;
+    flex-direction:row;
+    MARGIN-BOTTOM: 15VW;
+    PADDING-BOTTOM: 15VW;
+}
+.thirdLign{
+    display:flex;
+    JUSTIFY-CONTENT: SPACE-EVENLY;
+    flex-direction:row;
+    MARGIN-BOTTOM: 15VW;
+    PADDING-BOTTOM: 15VW;
+}
+
+.screenGrp{
+    border-radius: 5%;
+    width: 11vw;
+    border:2px solid rgb(30, 190, 190);
+    margin-bottom: 15vw; 
+    margin: 3vw;
+}
+
+.displayContent{
+    max-height: 100%;
+    display: flex;
+    width: 12vw;
+    background-color: rgb(167, 166, 166);
+    padding-left: 5vw;
+}
+
+.topPage{
+    max-height: 20vw;
+    overflow-y: auto;
+}
+
+.midPage{
+    height:10%
+}
+
+.duoContent{
+    display: flex;
+    flex-direction: column;
+}

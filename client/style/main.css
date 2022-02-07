@@ -1,55 +1,6 @@
-.background{
-    background-color: white;
-    width:100%
-}
-.header{
-    width: 15%; 
-}
-.container{
-    margin-top: 25vw;
-    display: flex;
-    flex-direction: column;
-}
-.firstLign{
-    display:flex;
-    flex-direction:row;
-    JUSTIFY-CONTENT: SPACE-EVENLY;
-    MARGIN-BOTTOM: 15VW;
-    PADDING-BOTTOM: 15VW;
-}
-.secundLign{
-    display:flex;
-    JUSTIFY-CONTENT: SPACE-EVENLY;
-    flex-direction:row;
-    MARGIN-BOTTOM: 15VW;
-    PADDING-BOTTOM: 15VW;
-}
-.thirdLign{
-    display:flex;
-    JUSTIFY-CONTENT: SPACE-EVENLY;
-    flex-direction:row;
-    MARGIN-BOTTOM: 15VW;
-    PADDING-BOTTOM: 15VW;
-}
 
-.screenGrp{
-    border-radius: 5%;
-    width: 17vw;
-    border:2px solid rgb(30, 190, 190);
-}
 
 .screenTxt{
 }
 
-.screen{
-    width: 11vw;
-    text-align:center;
-    margin:auto;
-    display:flex;
-}
 
-.txt{
-    font-size:1.5vw;
-    text-align:center;
-    
-}
