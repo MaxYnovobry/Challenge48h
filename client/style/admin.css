@@ -26,13 +26,14 @@
     display: flex;
     flex-direction: row;
     margin-top: 6vw;
-    align-items: space-between;
+    margin-left:3.5vw
 }
 
 .secundLign{
     display: flex;
     flex-direction: row;
     margin-top: 5vw;
+    margin-left:3.5vw
 }
 
 .screenGrp{
