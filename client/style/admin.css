@@ -25,19 +25,14 @@
 .firstLign{
     display: flex;
     flex-direction: row;
-    margin-top: 3vw;
+    margin-top: 6vw;
     align-items: space-between;
 }
 
 .secundLign{
     display: flex;
     flex-direction: row;
-    margin-top: 1.5vw;
-}
-.thirdLign{
-    display: flex;
-    flex-direction: row;
-    margin-top: 1.5vw;
+    margin-top: 5vw;
 }
 
 .screenGrp{
