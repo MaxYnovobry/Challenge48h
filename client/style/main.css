@@ -1,10 +1,11 @@
 body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     font-family: "Segoe UI";
     background-color: #E9E9E9;
     display: flex;
+    overflow-x: hidden;
 }
 
 /* LEFT MENU */
@@ -13,8 +14,7 @@ header {
     background-color: #72CBCB;
     display: flex;
     flex-direction: column;
-    width: 17vw;
-    height: 100%;
+    width: 17%;
     color: rgba(112, 112, 112, 53%);
     font-weight: 600;
 }
@@ -53,10 +53,14 @@ header div:nth-child(2) a:hover {
 
 header ~ div {
     height: 100%;
-    width: 73vw;
+    width: 83%;
+    padding: 2%;
 }
 
 #filter {
-    width: 100%;
+    width: 50%;
     height: 10%;
+    background-color: #FFFFFF;
+    padding: 0.5vw 1vw;
+    border-radius: 1vw;
 }
