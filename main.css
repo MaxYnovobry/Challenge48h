@@ -1,0 +1,33 @@
+.background{
+    background-color: white;
+    width:100%
+}
+.header{
+    width: 15%; 
+}
+.container{
+    margin-top: 25vw;
+    display: flex;
+    flex-direction: column;
+}
+.firstlign{
+    display:flex;
+    flex-direction:row;
+    JUSTIFY-CONTENT: SPACE-EVENLY;
+}
+.secundlign{
+    display:flex;
+    JUSTIFY-CONTENT: SPACE-EVENLY;
+    flex-direction:row
+}
+.thirdlign{
+    display:flex;
+    JUSTIFY-CONTENT: SPACE-EVENLY;
+    flex-direction:row
+}
+
+.ecran{
+    border-radius: 3%;
+    width: 3VW;
+    border:0.1vw rgb(0, 183, 255)
+}
