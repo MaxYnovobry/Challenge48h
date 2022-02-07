@@ -1,3 +1,8 @@
+body {
+    margin: 0;
+    font-family: "Segoe UI";
+}
+
 .background{
     background-color: white;
     width:100%
@@ -44,4 +49,20 @@
 
 .screen{
     width: 16vw;
+}
+
+
+/* LEFT MENU */
+
+header {
+    background-color: #72CBCB;
+    display: flex;
+    flex-direction: column;
+    width: 17vw;
+    height: 100vh;
+}
+
+header div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
 }
